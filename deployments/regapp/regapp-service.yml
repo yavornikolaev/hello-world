@@ -2,6 +2,7 @@ apiVersion: v1
 kind: Service
 metadata:
   name: valaxy-service
+  namespace: prod
   labels:
     app: regapp 
 spec:
